@@ -1,8 +1,8 @@
-Origin: Hoang Anh
-Label: Hoang Anh
+Origin: Minhvintage
+Label: Minhvintage
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: hotroiosco
+Description: Minhvintageiosco
