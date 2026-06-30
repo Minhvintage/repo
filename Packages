@@ -1,3 +1,23 @@
+Package: ca.adrien.appdrop
+Version: 3.2.1
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 89
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_3.2.1_iphoneos-arm.deb
+Size: 735540
+MD5sum: 65688157bcf12461d451e65c59e88c27
+SHA1: 9dfb30345d4436502135edf73fac7714e3797918
+SHA256: 0edd55ca8d72fff2617fda9e31a66479b0aaab2d88f280b4058b6576c2aa26ef
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.2: new "Most Downloaded" home shortcut + per-app download counts + sort by downloads, live active-users count, and you can now contribute IPAs yourself at https://upload.appdrop.ca. Also fixes version/compatibility selection (always the newest installable, non-encrypted build) and a category-loading glitch. v3.2.0.1: "Uncategorized" category now lists apps that have no category, download counts & Most Downloaded refresh continuously, and the iOS 5.x launch crash is fixed. v3.2.0.3: community "compatibility builds" (an app re-targeted to a lower iOS) merge cleanly and are fully reversible. v3.2.1: freezing is a lot better now, especially on older devices; the catalogue is tidier, with apps that don't belong no longer recommended; the Search, Install and Settings icons at the bottom look a lot sharper; and on a colour or dark theme the selected tab follows your theme instead of always being blue. (17 themes + dark mode, Favorites & folders, 9 languages.)
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
 Package: com.aoi.storefix
 Version: 1.0-6
 Architecture: iphoneos-arm
@@ -16,6 +36,26 @@ Author: aoi_satou
 Depiction: http://aoiblog.jp/appstorefix_history.html
 Dev: aoi_satou
 Name: AppStoreFix
+
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm.deb
+Size: 2450460
+MD5sum: 830ebd462d173a9211f5f7c41ce64d1a
+SHA1: 437f5c5097cdab433698b11dab81c3cb8fc82917
+SHA256: 99c90c0f4629d47af1c52772f374eb74828f7cdafc469fcc42af0eea6d417c66
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
 
 Package: com.hackyouriphone.cracktool2
 Version: 2.3~beta9
@@ -54,6 +94,30 @@ Author: Spark <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=fontss
 Name: SnowBoard Fonts Extension
 Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=fontss
+
+Package: com.ijinshan.kbatterydoctorpro.universal
+Version: 4.6.1-11
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 4712
+Depends: mobilesubstrate, firmware (>= 5.0), firmware (<< 7.0)
+Conflicts: app.weiphone.jinshan.kbatterydoctorpro, app.weiphone.myrepospace.oyoung.guan, app.weiphone.ijinshan.kbatterydoctorpro, com.ijinshan.kbatterydoctorpro, com.ijinshan.kbatterydoctorpro.universal, com.myrepospace.oyoung.guan, kbatterydoctorpro.appvv
+Filename: ./debs/tomkids.kbatterydoctorpro.universal_4.6.1-11_iphoneos-arm.deb
+Size: 3061312
+MD5sum: f80aeb25dd05d44bf7b0f5754ccfbfed
+SHA1: 8db2ec0d20cd2d86e9eab6644fa8597bf782b569
+SHA256: 252da0a358d73c8465b21fe2f96d422178ef493739ce5c45107227a23e000948
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batterydoctorprouniversalDp
+Description: monitor & optimize battery, system toggles
+Tag: purpose::extension
+Author: Kingsoft Security <app@ijinshan.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batterydoctorprouniversalDp
+Dev: kingsoftsecurity
+Icon: file:///Applications/kBatteryDoctor.app/icon.png
+Name: BatteryDoctorPro
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.ipr.bytafont
 Version: 1.8
@@ -103,6 +167,19 @@ SHA256: 7f0cc643c5f997428d265074df25b50326d7b5e8dffc4e2bdd378b9f6db31384
 Section: Applications
 Description: Đóng gói từ IPA bởi PhucNguyenVlog
 Name: Nhac Cua Tui
+
+Package: com.phucnguyenvlog.protubehd
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: PhucNguyen
+Filename: ./debs/com.phucnguyenvlog.protubehd_1.2_iphoneos-arm.deb
+Size: 613318
+MD5sum: d7e99c15c5406731214f6614a321e0fd
+SHA1: 8003b14c3812b75d3365266c860dfb2bf3500039
+SHA256: 14e52cf0e99734512943f5cd89b1b0a57e131c0d5e876a9b5f7c706f3ff5822f
+Section: Applications
+Description: Đóng gói từ IPA bởi PhucNguyenVlog
+Name: ProtubeHD
 
 Package: com.phucnguyenvlog.tiktok
 Version: 1.0
@@ -568,6 +645,26 @@ Icon: file:///Applications/iClassic.app/Icon.png
 Name: iClassic
 Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
 
+Package: vn.gsm.intelliscreenx
+Version: 7.10.6-2a
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Installed-Size: 5919
+Depends: firmware (>= 7.1.1), firmware (<< 8.0), mobilesubstrate, preferenceloader, libstatusbar, com.rpetrich.rocketbootstrap, vn.gsm.libjuche2 (>= 1.0.5)
+Conflicts: com.intelliborn.messagesplus, com.intelliscreenx, kim.cracksby.com.intelliborn.intelliscreenx71
+Filename: ./debs/vn.gsm.intelliscreenx_7.10.6-2a.deb
+Size: 3739274
+MD5sum: a569835eaeba5144a034c141f70b31c8
+SHA1: 9620782ec9c8315c46f338248da6de572f09ebeb
+SHA256: 8a74baad9c3c7ac6df7cd789869e6cf6da01ce742a1d8510263c945f6d67ab01
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: Facebook, Twitter, RSS, Enhanced Mail, ++ in your iOS 7 Notification Center and on your Lock Screen!
+Author: intelliborn
+Depiction: http://cydia.vn/depic/t5312/
+Name: IntelliScreenX
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+
 Package: vn.gsm.ios86
 Version: 1.2.3
 Architecture: iphoneos-arm
@@ -623,16 +720,15 @@ Name: Jukebox
 Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.protube
-Version: 1.9.9-6
+Version: 1.12.1p
 Architecture: iphoneos-arm
 Maintainer: Cydia.vn <repo@cydia.vn>
-Installed-Size: 6712
-Depends: firmware(>= 4.0), preferenceloader
-Filename: ./debs/protube_v1.9.9-6.deb
-Size: 5549402
-MD5sum: 307b0bfa8b6e7af3c0cad93f6df124a3
-SHA1: e3c1e8232378fe1fd75c1a9eec007826d1ddd1b8
-SHA256: 9307a221b85f96d6f39209934140dc685c7e1aafae4f86dfa3e428b4effaee7d
+Depends: firmware (>= 4.0), preferenceloader
+Filename: ./debs/vn.gsm.protube_1.12.1p_iphoneos-arm.deb
+Size: 7506492
+MD5sum: 0d54ca872d0b982cea99dc3b551a0e5b
+SHA1: cdacacb38b227fc67e712fc8019840899ebc0988
+SHA256: cbf17b9dcb57e70f4ba65e547f6547f864396b1f15d9410a5f324fc12b3c3dd4
 Section: !CydiaVn-Apps
 Homepage: http://cydia.vn/
 Description: complete feature-filled YouTube app
@@ -640,26 +736,6 @@ Author: Jonas Gessner
 Depiction: http://cydia.vn/depic/t2248/
 Icon: file:///Applications/ProTube.app/icon.png
 Name: ProTube
-
-Package: vn.gsm.protubehd
-Version: 1.6.9-2
-Architecture: iphoneos-arm
-Maintainer: Cydia.vn <repo@cydia.vn>
-Installed-Size: 11112
-Depends: firmware(>= 4.3), preferenceloader
-Filename: ./debs/protubehd_1.6.9-2.deb
-Size: 10591352
-MD5sum: 901123144dc246fa16409c29cff874a1
-SHA1: c5a0181e7a8059e40a007900b97e50f70cffa2d7
-SHA256: 96e9ea36baadb57ffb0ef7cf6c62278b658589437a6b9bab7e2242e6ee5053e6
-Section: !CydiaVn-Apps
-Homepage: http://cydia.vn/
-Description: complete feature-filled YouTube app for iPad
-Author: Jonas Gessner
-Depiction: http://cydia.vn/depic/t2294/
-Icon: file:///Applications/ProTubeHD.app/icon.png
-Name: ProTube HD
-Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.removebackgroundapp
 Version: 1.0-5
@@ -841,6 +917,25 @@ Depiction: http://cydia.gsm.vn/t2197/
 Icon: file:///Applications/springtomizeapp.app/Icon.png
 Name: Springtomize2-Localizations
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: vn.gsm.videopane
+Version: 2.0.6k
+Architecture: iphoneos-arm
+Maintainer: Cydia.vn <repo@cydia.vn>
+Depends: mobilesubstrate (>= 0.9.5001), firmware (>= 5.0), preferenceloader (>= 2.2.2), libactivator (>= 1.9.5), applist (>= 1.5.9), com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0)
+Filename: ./debs/tomkids.videopane_2.0.6k_iphoneos-arm.deb
+Size: 451816
+MD5sum: 8a837524460d52048af0c852fc59de89
+SHA1: 169be2d5dcc8c46d4421c5893021adf5cfe421cb
+SHA256: 23ff7c1648fcfe1dc4c0f821768513a35119c3991081c1f3833284caca68e367
+Section: !CydiaVn-Tools
+Homepage: http://cydia.vn/
+Description: Picture-in-picture for video; multitask while playing movies
+Author: Ryan Petrich
+Depiction: http://cydia.vn/depic/t4582/
+Icon: file:///System/Library/PreferenceLoader/Preferences/VideoPane/VideoPane@2x.png
+Name: VideoPane
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
 
 Package: vn.gsm.zephyr
 Version: 1.6.4-1
